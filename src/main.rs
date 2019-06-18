@@ -30,7 +30,7 @@ fn rev_order(x: u64) -> u64 {
     // reverse string
     num = num.chars().rev().collect();
 
-    // comvert string back into int
+    // convert string back into int
     let num: u64 = match num.trim().parse()
                    {
                     Ok(num) => num,
